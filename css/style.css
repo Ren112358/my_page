@@ -1,24 +1,32 @@
 body {
-    margin: 0;
     display: flex;
-    min-height: 100vh;
+    flex-direction: column
 }
 
 header {
-    display: flex;
-    min-height: 250px;
+    min-height: 150px;
+    width: 100%;
+    text-align: center;
+    background-color:whitesmoke;
+    color: navy;
+    font-size: 50px;
 }
 
-main {
-    display: flex;
+.profile {
+    box-sizing: border-box;
+    margin-left: 220px;
+    padding: 20px 40px;
 }
 
-aside {
-    min-width: 250px;
-}
-
-ul {
+.sidebar {
+    box-sizing: border-box;
+    top: 50px;
+    height: 100%;
+    width: 220px;
+    position: fixed;
+    overflow: auto;
+    background: whitesmoke;
+    color: navy;
+    padding: 20px;
     list-style: none;
-    padding: 0;
-    margin: 0;
 }
